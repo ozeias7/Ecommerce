@@ -85,7 +85,7 @@ h4 {font-size: 1em;}
 */
 
 .container {
-    max-width: var(--mx-width, 1200px);
+    max-width: var(--mx-width, 1550px);
     padding: 0 var(--gutter, 15px);
     margin: 0 auto;
 }
@@ -114,6 +114,13 @@ h4 {font-size: 1em;}
     max-width: 720px;
 }
 
+/* .header-center ul li {
+    display: inline-block;
+    padding-right: 4px;
+} */
+
+
+
 .header-center .branding {
     position: absolute;
     left: 0;
@@ -136,8 +143,17 @@ h4 {font-size: 1em;}
     font-size: var(--fs14);
     font-weight: var(--fw600);
     text-transform: uppercase;
-    padding: 0 15px;
+    padding: 0 25px;
 }
+
+li {
+  float: left;  
+}
+
+li a {
+    display: block;  
+  }
+
 
 
 @media (min-width: 992px) {
